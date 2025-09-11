@@ -73,7 +73,7 @@ public class queueUsingStack {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        MyQueue queue = new MyQueue(10); // capacity 10
+        MyQueue queue = new MyQueue(5); // capacity 10
         int choice, val;
 
         while (true) {
