@@ -45,12 +45,12 @@ public class SubTreeOfAnotherTree {
         );
 
         // Subtree: [4,1,2]
-        TreeNode subRoot = new TreeNode(4,
+        TreeNode subRoot1 = new TreeNode(4,
                 new TreeNode(1),
                 new TreeNode(2)
         );
 
-        System.out.println(sol.isSubtree(root, subRoot)); // true
+        System.out.println(sol.isSubtree(root, subRoot1)); // true
     }
 }
 
