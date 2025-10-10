@@ -45,7 +45,7 @@ public class RecoverBST {
 
     // Quick test
     public static void main(String[] args) {
-        RecoverBST sol = new RecoverBST();
+        RecoverBST sol1 = new RecoverBST();
 
         /*
              3
@@ -61,7 +61,7 @@ public class RecoverBST {
                 new TreeNode(4, new TreeNode(2), null)
         );
 
-        sol.recoverTree(root);
+        sol1.recoverTree(root);
 
         // Inorder after fix should be sorted: 1 2 3 4
         printInorder(root);
